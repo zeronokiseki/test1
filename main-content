@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>心之所在</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <style>
+        #background-2
+        {
+            width:1366px;
+            height:768px;
+            background: url(images/3qosklq18.jpg) top center transparent;
+            opacity: 0;
+        }
+        h3{
+            font-weight:bold;
+            color:#0df9ff;
+        }
+        .thumbnail{
+            opacity:0;
+        }
+    </style>
+</head>
+<body>
+<div id="background-2">
+<audio src="audio/21.とどいた想い.mp3" id="login-music-2" loop="loop"></audio>
+<div class="navbar navbar-inverse" role="navigation">
+    <ul class="nav navbar-nav">
+        <li class="active"><a href="#">网站首页</a></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" id="soranokiseki">空之轨迹
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu" aria-labelledby="soranokiseki">
+            <li><a href="role-star/SORA.html" tabindex="-1">角色简介</a></li>
+            <li class="nav-divider"></li>
+            <li><a href="#" tabindex="-1">剧情</a></li>
+            <li class="nav-divider"></li>
+            <li><a href="#" tabindex="-1">攻略</a></li>
+            <li class="nav-divider"></li>
+            <li><a href="#" tabindex="-1">音乐</a></li>
+            <li class="nav-divider"></li>
+            <li><a href="#" tabindex="-1">分享<span class="badge">new</span></a></li>
+        </ul></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" id="zeronokiseki">零之轨迹
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu" aria-labelledby="zeronokiseki">
+            <li><a href="role-star/ZERO.html">角色简介</a></li>
+            <li class="nav-divider"></li>
+            <li><a href="#">剧情</a></li>
+            <li class="nav-divider"></li>
+            <li><a href="#">攻略</a></li>
+            <li class="nav-divider"></li>
+            <li><a href="#">音乐</a></li>
+            <li class="nav-divider"></li>
+            <li><a href="#">分享<span class="badge">new</span></a></li>
+        </ul></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" id="aonokiseki">碧之轨迹
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu" aria-labelledby="aonokiseki">
+                <li><a href="role-star/AO.html">角色简介</a></li>
+                <li class="nav-divider"></li>
+                <li><a href="#">剧情</a></li>
+                <li class="nav-divider"></li>
+                <li><a href="#">攻略</a></li>
+                <li class="nav-divider"></li>
+                <li><a href="#">音乐</a></li>
+                <li class="nav-divider"></li>
+                <li><a href="#">分享<span class="badge">new</span></a></li>
+            </ul></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle disabled" data-toggle="dropdown" id="kiseki">闪之轨迹
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu" aria-labelledby="kiseki">
+                <li><a href="#">角色简介</a></li>
+                <li class="nav-divider"></li>
+                <li><a href="#">剧情</a></li>
+                <li class="nav-divider"></li>
+                <li><a href="#">攻略</a></li>
+                <li class="nav-divider"></li>
+                <li><a href="#">音乐</a></li>
+                <li class="nav-divider"></li>
+                <li><a href="#">分享<span class="badge">new</span></a></li>
+            </ul></li>
+    </ul>
+    <form class="navbar-form navbar-left">
+        <div class="form-group has-feedback">
+            <input type="text" placeholder="输入想知道的轨迹角色" class="form-control">
+            <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+        </div>
+    </form>
+</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-sm-3">
+                <a href="#" class="thumbnail" id="picture-1">
+                    <img src="images/6835323_550x550_0.jpg" style="width:300px;height:200px;display: block;">
+                </a>
+                <div class="caption">
+                    <h3>空之轨迹专区一</h3>
+                    <a href="#" class="btn btn-primary " id="btn-1">进入专区</a>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <a href="#" class="thumbnail" id="picture-2">
+                    <img src="images/5bafa40f4bfbfbed345157fb78f0f736afc31f2d.jpg.png" style="width:300px;height:200px;display: block;">
+                </a>
+                <div class="caption">
+                    <h3>空之轨迹专区二</h3>
+                    <a href="#" class="btn btn-primary" id="btn-2">进入专区</a>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <a href="#" class="thumbnail" id="picture-3">
+                    <img src="images/u=1069607577,1735755209&fm=21&gp=0.jpg" style="width:300px;height:200px;display: block;">
+                </a>
+                <div class="caption">
+                    <h3>空之轨迹专区三</h3>
+                    <a href="#" class="btn btn-primary" id="btn-3">进入专区</a>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <a href="#" class="thumbnail" id="picture-4">
+                    <img src="images/u=2357252523,3890629956&fm=21&gp=0.jpg" style="width:300px;height:200px;display: block;">
+                </a>
+                <div class="caption">
+                    <h3>空之轨迹专区四</h3>
+                    <a href="#" class="btn btn-primary" id="btn-4">进入专区</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-xs-6 col-sm-3">
+                <a href="#" class="thumbnail" id="picture-5">
+                    <img src="images/u=3627587717,645889106&fm=21&gp=0.jpg" style="width:300px;height:200px;display: block;">
+                </a>
+                <div class="caption">
+                    <h3>零之轨迹专区</h3>
+                    <a href="#" class="btn btn-primary" id="btn-5">进入专区</a>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <a href="#" class="thumbnail" id="picture-6">
+                    <img src="images/u=2038744936,239434147&fm=21&gp=0.jpg" style="width:300px;height:200px;display: block;">
+                </a>
+                <div class="caption">
+                    <h3>碧之轨迹专区</h3>
+                    <a href="#" class="btn btn-primary" id="btn-6">进入专区</a>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <a href="#" class="thumbnail" id="picture-7">
+                    <img src="images/u=750506917,3988684017&fm=21&gp=0.jpg" style="width:300px;height:200px;display: block;">
+                </a>
+                <div class="caption">
+                    <h3>闪之轨迹专区(暂未开放)</h3>
+                    <a href=##" class="btn btn-primary " id="btn-7">进入专区</a>
+                    <div class="modal fade" id="mymodal">
+                        <div class="modal-dialog modal-sm">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button class="close" data-dismiss="modal" type="button">
+                                        <span aria-hidden="true">&times;</span>
+                                        <span class="sr-only">Close</span>
+                                    </button>
+                                    <h4 class="modal-title">消息通知</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>该专区现在还未开放哦.具体开放时间将会进一步通知。。。</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">关闭</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <a href="#" class="thumbnail" id="picture-8">
+                    <img src="images/T7B7UV561358_moe 139259 falcom wallpaper.jpg" style="width:300px;height:200px;display: block;">
+                </a>
+                <div class="caption">
+                    <h3>友情联盟(伊苏系列)</h3>
+                    <a href="##" class="btn btn-primary" id="btn-8" data-toggle="tooltip" data-placement="bottom"
+                            data-original-title="<h6>进入专区可看到更多有趣的消息哦</h6>" data-html="true"
+                            data-animation="true" data-delay="600">进入专区</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-2.0.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="onload/onload2.js"></script>
+<script src="audio/audio2.js"></script>
+<script src="event/event-content.js"></script>
+<script src="onload/close.js"></script>
+<script src="onload/tip.js"></script>
+</body>
+</html>
