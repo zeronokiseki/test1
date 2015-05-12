@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>心之入口</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <style>
+        #background-1{
+            opacity: 0;
+            margin-top:-20px;
+            width:1366px;
+            height:768px;
+            background: url(images/3qosklq18.jpg) top center no-repeat;
+        }
+        .title{
+             font-size:60px;
+            position:absolute;
+            top:20%;
+            left:20%;
+        }
+        .container{
+            position:absolute;
+            min-width:300px;
+            min-height:300px;
+            top:30%;
+            left:1%;
+            background:transparent;
+        }
+        .h4{
+            color:black;
+        }
+    </style>
+</head>
+<body style="overflow: hidden;">
+<div id="background-1">
+<audio src="audio/25. way of life -Full Version-.mp3" id="login-music"></audio>
+<p class="h1 text-center title">欢迎进入轨迹(伊苏)的世界!</p>
+<div class="container col-md-2">
+    <div class="row">
+        <p class="text-left  h4" style="font-weight:bold;">输入你的登录信息</p>
+    </div>
+    <div class="row ">
+            <input class="form-control" placeholder="在此输入你的邮箱">
+    </div>
+    <br>
+    <div class="row ">
+        <input class="form-control" placeholder="在此输入你的密码">
+    </div>
+    <div class="row checkbox">
+        <label class="control-label h4">
+            <input type="checkbox" style="font-weight:bold;">记住我
+        </label>
+    </div>
+    <div class="row">
+        <button class="btn btn-primary" type="submit">登录</button>
+        <button class="btn btn-primary" type="submit">注册</button>
+    </div>
+</div>
+</div>
+<script src="js/jquery-2.0.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="onload/onload.js"></script>
+<script src="audio/audio.js"></script>
+</body>
+</html>
